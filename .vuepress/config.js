@@ -71,7 +71,7 @@ module.exports = {
   host: 'localhost',
   themeConfig: {
     search: false,
-    repo: 'nonfungibleeteam/NFTeam-website',
+    repo: 'NonFungibleTeam/NFTeam-website',
     lastUpdated: 'Last Updated', // string | boolean
     nav: [
       {
