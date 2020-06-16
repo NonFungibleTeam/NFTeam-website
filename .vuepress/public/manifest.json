@@ -1,9 +1,9 @@
 {
-  "name": "Colorado Community Radio Network",
-  "short_name": "CCRN Website",
+  "name": "Non Fungible Team",
+  "short_name": "NFTeam",
   "icons": [
     {
-      "src": "/icons/ccrn-icon.jpg",
+      "src": "/icons/android-chrome-512x512.jpg.jpg",
       "sizes": "192x192",
       "type": "image/png"
     }

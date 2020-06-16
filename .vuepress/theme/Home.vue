@@ -17,9 +17,6 @@
           </v-toolbar>
         </v-layout>
         <v-layout class="pa-4 body" wrap>
-          <v-flex xs12 md10 offset-md1 class="pa-4 heading">
-            <v-img class="logo" :src="$page.frontmatter.logo" contain />
-          </v-flex>
           <v-flex xs12 md10 offset-md1 class="pa-4 cards">
             <v-card v-for="card in $page.frontmatter.cards" class="ma-4 pa-2 card">
               <v-icon class="pa-3 card-icon" x-large>{{ card.icon }}</v-icon>
