@@ -84,11 +84,6 @@ module.exports = {
         link: '/about.html',
         icon: 'face',
       },
-      {
-        text: 'Contact',
-        link: '/contact.html',
-        icon: 'email',
-      },
     ],
     serviceWorker: {
       updatePopup: true,
