@@ -9,13 +9,13 @@ export default ({
 }) => {
   Vue.use(Vuetify, {
     theme: {
-      primary: #ff5722,
-      secondary: #607d8b,
-      accent: #009688,
-      error: #f44336,
-      warning: #ff9800,
-      info: #2196f3,
-      success: #4caf50
+      primary: "#ff5722",
+      secondary: "#607d8b",
+      accent: "#009688",
+      error: "#f44336",
+      warning: "#ff9800",
+      info: "#2196f3",
+      success: "#4caf50"
     }
   });
   router.beforeEach((to, from, next) => {

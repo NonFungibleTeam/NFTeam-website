@@ -3,7 +3,7 @@
     <Nav />
     <v-content>
       <v-container fluid>
-        <v-layout class="pa-4 page-title">
+        <v-layout class="pa-4 page-title" align="center">
           <h1>{{ $page.title }}</h1>
         </v-layout>
         <v-layout class="pa-4">
@@ -15,24 +15,6 @@
                 <a :href="'mailto:' + $page.frontmatter.email">{{ $page.frontmatter.email }}</a>
               </h2>
               <Content />
-            </v-card>
-            <v-card class="pa-4 ma-4">
-              <h2>Get in touch!</h2>
-              <v-form ref="form" v-model="valid" @submit.stop="submit" lazy-validation>
-                <v-text-field v-model="name" :rules="nameRules" label="Name" required></v-text-field>
-                <v-text-field v-model="email" :rules="emailRules" label="E-mail" required></v-text-field>
-                <v-text-field v-model="subject" :rules="subjectRules" label="Subject"></v-text-field>
-                <v-textarea
-                  v-model="message"
-                  :rules="messageRules"
-                  label="Message"
-                  auto-grow
-                  required
-                ></v-textarea>
-                <v-btn :disabled="!valid" @click="submit" color="primary">submit</v-btn>
-                <v-btn @click="clear" color="accent">clear</v-btn>
-                <v-alert v-if="alert" :value="alert" :type="alertType">{{ alert }}</v-alert>
-              </v-form>
             </v-card>
           </v-flex>
         </v-layout>
