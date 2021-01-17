@@ -10,3 +10,5 @@ NonFungibleTeam’s members,
 [@KittyCatRightM3](https://twitter.com/KittyCatRightM3), and
 [@alxocity](https://twitter.com/alxocity),
 met at ETHDenver hackathon developing a novel NFT game Microverse.  Though that project has yet to make it to fruition, we’ve directed our efforts towards new projects. 
+
+[Read Our Blog](https://medium.com/@nonfungibleteam)
