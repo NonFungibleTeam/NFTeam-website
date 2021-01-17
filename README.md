@@ -11,17 +11,17 @@ cards:
   - text: Squiggly.wtf
     icon: team
     linkTo: https://www.squiggly.wtf/
-    linkText: DAPP
+    linkText: Site
   - text: MATH
     icon: team
     linkTo: https://opensea.io/collection/math
-    linkText: DAPP
+    linkText: Collection
   - text: MintThatShit
     icon: team
     linkTo: https://opensea.io/collection/mint-that-shit
-    linkText: DAPP    
+    linkText: Collection    
   - text: ChainFaces
     icon: team
     linkTo: http://www.chainfaces.co/
-    linkText: DAPP
+    linkText: Site
 ---
