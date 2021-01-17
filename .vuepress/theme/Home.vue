@@ -20,7 +20,7 @@
           <v-flex xs12 md10 offset-md1 class="pa-4 cards">
             <v-card v-for="card in $page.frontmatter.cards" min-width="25%" max-width="25%" class="ma-4 pa-2 card">
               <v-icon v-if="card.icon" class="pa-3 card-icon" x-large>{{ card.icon }}</v-icon>
-              <v-img v-elseif="card.img" :src="card.img" />
+              <v-img v-elseif="card.img" :src="card.img" width="100%" />
               <v-card-title>{{ card.text }}</v-card-title>
               <v-card-actions>
                 <v-btn v-if="card.link" :href="card.link" target="_blank" >{{ card.linkText }}</v-btn>
